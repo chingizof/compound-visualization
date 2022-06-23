@@ -1,5 +1,14 @@
+.container {
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
 .container-description {
-    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
     margin: auto;
     margin-top: 100px;
   
@@ -9,9 +18,19 @@
   }
   
   .container-text {
-    font-family: Sans-serif;
     font-weight: 600;
     font-size: 44px;
     line-height: 58px;
     text-align: center;
+    margin-bottom: 40px;
   }
+
+  .items {
+    display: grid;
+    grid-template-columns: repeat(3,minmax(0,1fr));
+    grid-gap: 10px 10px;
+
+    box-sizing: border-box;
+    margin: 0;
+  }
+  /* меньше 190 пикселей наш дизайн должен становиться на 2 столбца */

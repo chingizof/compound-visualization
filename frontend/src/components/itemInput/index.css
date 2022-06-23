@@ -1,0 +1,15 @@
+.item-input {
+    font-size: 16px;
+    text-align: center;
+
+    padding: 9px 12px;
+    border-radius: 3px;
+    border: 1px solid #b2bec3;
+    width: 100%;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}

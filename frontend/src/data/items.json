@@ -1,0 +1,170 @@
+[
+    {
+        "name": "NBA Team",
+        "price": 2120000000
+    },
+    {
+        "name": "Cruise Ship",
+        "price": 930000000
+    },
+    {
+        "name": "Skyscraper",
+        "price": 850000000
+    },
+    {
+        "name": "Mona Lisa",
+        "price": 780000000
+    },
+    {
+        "name": "Boeing 747",
+        "price": 148000000
+    },
+    {
+        "name": "Make a movie",
+        "price": 100000000
+    },
+    {
+        "name": "Mansion",
+        "price": 45000000
+    },
+    {
+        "name": "Apache Helicopter",
+        "price": 31000000
+    },
+    {
+        "name": "Formula 1 Car",
+        "price": 15000000
+    },
+    {
+        "name": "M1 Abrams Tank",
+        "price": 8000000
+    },
+    {
+        "name": "Yacht",
+        "price": 7500000
+    },
+    {
+        "name": "house in california",
+        "price": 4000000
+    },
+    {
+        "name": "McDonalds Franchise",
+        "price": 1500000
+    },
+    {
+        "name": "Gold Bar",
+        "price": 700000
+    },
+    {
+        "name": "Single Family Home",
+        "price": 300000
+    },
+    {
+        "name": "Ferrari",
+        "price": 25000
+    },
+    {
+        "name": "Monster Truck",
+        "price": 15000
+    },
+    {
+        "name": "Tesla",
+        "price": 7500
+    },
+    {
+        "name": "Rolex",
+        "price": 1500
+    },
+    {
+        "name": "Diamond Ring",
+        "price": 1000
+    },
+    {
+        "name": "Luxury Wine",
+        "price": 7000
+    },
+    {
+        "name": "Hot Tub",
+        "price": 6000
+    },
+    {
+        "name": "Designer Handbag",
+        "price": 5500
+    },
+    {
+        "name": "Acre of Farmland",
+        "price": 3000
+    },
+    {
+        "name": "Horse",
+        "price": 2500
+    },
+    {
+        "name": "Iphone X",
+        "price": 2000
+    },
+    {
+        "name": "Puppy",
+        "price": 1500
+    },
+    {
+        "name": "Bike",
+        "price": 800
+    },
+    {
+        "name": "Smartphone",
+        "price": 700
+    },
+    {
+        "name": "Drone",
+        "price": 350
+    },
+    {
+        "name": "Gaming Console",
+        "price": 299
+    },
+    {
+        "name": "Airpods",
+        "price": 199
+    },
+    {
+        "name": "Air Jordans",
+        "price": 125
+    },
+    {
+        "name": "1 Year Netflix",
+        "price": 100
+    },
+    {
+        "name": "Amazon Echo",
+        "price": 99
+    },
+    {
+        "name": "Video Game",
+        "price": 60
+    },
+    {
+        "name": "Lobster Dinner",
+        "price": 45
+    },
+    {
+        "name": "Book",
+        "price": 15
+    },
+    {
+        "name": "Movie Tickets",
+        "price": 12
+    },
+    {
+        "name": "Coca-Cola Pack",
+        "price": 5
+    },
+    {
+        "name": "Flip Flops",
+        "price": 3
+    },
+    {
+        "name": "Big Mac",
+        "price": 2
+    }
+]

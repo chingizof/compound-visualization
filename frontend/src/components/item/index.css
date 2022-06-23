@@ -1,0 +1,38 @@
+.item-wrapper {
+    text-align: center;
+    width: 100%;
+    font-size: 18px;
+    background-color: white;
+    border: #224542 solid 1px;
+    max-width: 100%;
+}
+
+.item-img {
+    display: block;
+    margin: 15px auto;
+    height: 100px;
+
+}
+
+.item-name {
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.item-cost {
+    font-size: 20px;
+    color: #24c486;
+}
+
+.item-controllers {
+    font-size: 20px;
+    font-weight: 700;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 10px 10px;
+    margin-top: 25px;
+}
+
+.item-content {
+    padding: 20px 15px
+}
