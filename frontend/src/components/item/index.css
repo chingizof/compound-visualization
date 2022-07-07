@@ -3,8 +3,8 @@
     width: 100%;
     font-size: 18px;
     background-color: white;
-    border: #224542 solid 1px;
     max-width: 100%;
+    border-radius: 5px;
 }
 
 .item-img {

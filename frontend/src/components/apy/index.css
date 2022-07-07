@@ -1,0 +1,60 @@
+/* 
+
+.apy-buttons {
+  display: grid;
+  grid-template-columns: 0.1fr 0.1fr 0.1fr 0.1fr 0.1fr;
+  border-radius: 10px;
+  background-color: #D9D9D9;
+}
+
+
+
+
+
+.btn {
+  border: none;
+  cursor: pointer;
+  padding: 20px 30px;
+
+} */
+
+.apy-wrapper {
+  margin-top: 40px;
+  display: flex;
+  justify-content:space-between;
+}
+
+.apy-description {
+  width: 60%;
+}
+
+.group-button {
+  display: grid;
+  grid-template-columns: repeat(5,1fr);
+  border: 2px solid #0000008c;
+  border-radius: 5px;
+  box-shadow:  0px 0px 2px #000;
+  width: 350px
+}
+
+button {
+  font-size: 15px;
+  margin: 0;
+  padding: 10px 15px;
+  background-color: #D9D9D9;
+  color: #0000008c;
+  border-color: transparent;
+  outline: 0;
+  cursor: pointer;
+  transition: all 1s ease;
+}
+
+.apy-text {
+  font-size: 15px;
+  margin: 0;
+  padding: 15px 15px;
+  background-color: #D9D9D9;
+  color: #0000008c;
+  border-color: transparent;
+  outline: 0;
+}

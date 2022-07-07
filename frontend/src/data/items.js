@@ -1,24 +1,4 @@
-// export const items = [
-//     {
-//         name: "NBA Team",
-//         price: 2120000000, //2.1 Bil
-//         img: "https://neal.fun/spend/images/nba-team.jpg",
-//     },
-//     {
-//         name: "Cruise Ship",
-//         price: 930000000, //930 Mil
-//         img: "https://neal.fun/spend/images/cruise-ship.jpg",
-//     },
-//     {
-//         name: "Skyscraper",
-//         price: 850000000, //850 Mil
-//         img: "https://neal.fun/spend/images/skyscraper.jpg",
-//     },
-//     {
-//         name: "Mona Lisa",
-//         price: 780000000, //2.1 Bil
-//         img: "https://neal.fun/spend/images/mona-lisa.jpg",
-//     },
+
 //     {
 //         name: "Boeing 747",
 //         price: 148000000, //148 Mil
@@ -188,12 +168,14 @@
 //     },
 // ]
 
-export const items = [{ name: 'Big Mac', price: 2 },
-{ name: 'Flip Flops', price: 3 },
-{ name: 'Coca-Cola Pack', price: 5 },
-{ name: 'Movie Tickets', price: 12 },
-{ name: 'Book', price: 15 },
-{ name: 'Lobster Dinner', price: 45 },
+export const items = 
+[
+{ name: 'Big Mac', price: 2, img:"https://neal.fun/spend/images/big-mac.jpg" },
+{ name: 'Flip Flops', price: 3, img: "https://neal.fun/spend/images/flip-flops.jpg" },
+{ name: 'Coca-Cola Pack', price: 5, img: "https://neal.fun/spend/images/coca-cola-pack.jpg" },
+{ name: 'Movie Tickets', price: 12, img: "https://neal.fun/spend/images/movie-ticket.jpg" },
+{ name: 'Book', price: 15, img: "https://neal.fun/spend/images/book.jpg" },
+{ name: 'Lobster Dinner', price: 45, img: "https://neal.fun/spend/images/lobster-dinner.jpg" },
 { name: 'Video Game', price: 60 },
 { name: 'Amazon Echo', price: 99 },
 { name: '1 Year Netflix', price: 100 },
@@ -225,8 +207,8 @@ export const items = [{ name: 'Big Mac', price: 2 },
 { name: 'Apache Helicopter', price: 31000000 },
 { name: 'Mansion', price: 45000000 },
 { name: 'Make a movie', price: 100000000 },
-{ name: 'Boeing 747', price: 148000000 },
-{ name: 'Mona Lisa', price: 780000000 },
-{ name: 'Skyscraper', price: 850000000 },
-{ name: 'Cruise Ship', price: 930000000 },
-{ name: 'NBA Team', price: 2120000000 }]
+{ name: 'Boeing 747', price: 148000000, img: "https://neal.fun/spend/images/boeing-747.jpg" },
+{ name: 'Mona Lisa', price: 780000000, img: "https://neal.fun/spend/images/mona-lisa.jpg" },
+{ name: 'Skyscraper', price: 850000000, img: "https://neal.fun/spend/images/skyscraper.jpg" },
+{ name: 'Cruise Ship', price: 930000000, img: "https://neal.fun/spend/images/cruise-ship.jpg" },
+{ name: 'NBA Team', price: 2120000000, img:"https://neal.fun/spend/images/nba-team.jpg" }]

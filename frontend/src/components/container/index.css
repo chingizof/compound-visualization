@@ -29,9 +29,9 @@
     display: grid;
     grid-template-columns: repeat(3,minmax(0,1fr));
     grid-gap: 10px 10px;
+    margin-top: 80px;
 
     box-sizing: border-box;
-    margin: 0;
   }
   /* меньше 190 пикселей наш дизайн должен становиться на 2 столбца */
 
