@@ -17,6 +17,10 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chingizof/compound-visualization.git"
+  },
   "eslintConfig": {
     "extends": [
       "react-app",
@@ -34,5 +38,12 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chingizof/compound-visualization/issues"
+  },
+  "homepage": "https://github.com/chingizof/compound-visualization#readme"
 }
