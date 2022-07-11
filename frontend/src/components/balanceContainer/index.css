@@ -1,0 +1,14 @@
+.balance-wrapper {
+    width: 100wv;
+    height: 100px;
+    background-color: aquamarine;
+    margin-top: 60px;
+    text-align: center;
+
+    vertical-align: middle;
+}
+
+.balance-sum {
+    font-size: 50px;
+    font-weight: 600;
+}

@@ -1,7 +1,4 @@
-import {useState} from 'react'
-
-export const InputYears = () => {
-    const[years, setYears] = useState(20)
+export const InputYears = ({ years, setYears }) => {
 
     const handleChange = event => {
         setYears(event.target.value)
@@ -18,4 +15,3 @@ export const InputYears = () => {
         </div>
     )
 }
-

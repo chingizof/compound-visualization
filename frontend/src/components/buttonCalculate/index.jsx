@@ -1,14 +1,13 @@
 import './index.css'
 import { calculateBalance } from '../../calculator.js'
 
-export const ButtonCalculate = () => {
+export const ButtonCalculate = ({ money, years, apy, setBalance }) => {
 
-    // function calculate(e) {
-    //     e.preventDefault()
-    //     calculateBalance(2000000, 20, 2000000, 5)
-    // }
+    const handleClick = () => {
+        setBalance(calculateBalance(money, money, years, apy))
+    }
 
     return (
-        <button className='button-1' onClick={()=>calculateBalance(2000000, 200000, 20, 5)}>Calculate</button>
+        <button className='button-1' onClick={handleClick}>Calculate</button>
     )
 }

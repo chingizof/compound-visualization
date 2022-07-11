@@ -1,7 +1,5 @@
-import {useState} from 'react'
 
-export const InputMoney = () => {
-    const[money, setMoney] = useState(100)
+export const InputMoney = ({ money, setMoney }) => {
 
     const handleChange = event => {
         setMoney(event.target.value)
