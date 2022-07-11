@@ -1,11 +1,11 @@
-let startSum = 2000000 
-let period = 20 //сколько лет инвестирует
-let periodicSum = 2000000
+// let startSum = 2000000 
+// let period = 20 //сколько лет инвестирует
+// let periodicSum = 2000000
 
 //https://www.nerdwallet.com/banking/calculator/compound-interest-calculator  
 //for reference
 
-const calculateBalance = (startSum, periodicSum,  period, apr) => {
+export const calculateBalance = (startSum, periodicSum,  period, apr) => {
     apr = apr/100
     period *= 12
     let sum = 0;
@@ -13,14 +13,15 @@ const calculateBalance = (startSum, periodicSum,  period, apr) => {
     for (let i = 1; i < period; i++) {
         sum += periodicSum * (1 + apr/12)**(i)
     }
-    return sum
+    console.log(Math.floor(sum))
+    return Math.floor(sum)
 }
 
 
-let balance5apr = calculateBalance(startSum, periodicSum, period, 5)
-let balance10apr = calculateBalance(startSum, periodicSum, period, 10)
-let balance15apr = calculateBalance(startSum, periodicSum, period, 15)
-let  balance20apr = calculateBalance(startSum, periodicSum, period, 20)
+// let balance5apr = calculateBalance(startSum, periodicSum, period, 5)
+// let balance10apr = calculateBalance(startSum, periodicSum, period, 10)
+// let balance15apr = calculateBalance(startSum, periodicSum, period, 15)
+// let  balance20apr = calculateBalance(startSum, periodicSum, period, 20)
 
 let items = [{ name: 'Big Mac', price: 2 },
 { name: 'Flip Flops', price: 3 },
@@ -64,6 +65,27 @@ let items = [{ name: 'Big Mac', price: 2 },
 { name: 'Skyscraper', price: 850000000 },
 { name: 'Cruise Ship', price: 930000000 },
 { name: 'NBA Team', price: 2120000000 }]
+
+// let currentBalance = balance20apr
+
+// console.log("Starting sum: ", startSum, "invest every month: ", periodicSum, "for ", period, " years")
+// console.log("if invested for 5% apr: ", balance5apr)
+// console.log("if invested for 10% apr: ", balance10apr)
+// console.log("if invested for 15% apr: ", balance15apr)
+// console.log("if invested for 20% apr: ", balance20apr)
+// console.log("=================")
+// console.log("current Balance: ", currentBalance)
+
+// const calculateAssets = (currentBalance) => {
+//     for (let i=0; i<items.length; i++) {
+//         items[i].count = Math.floor(currentBalance / items[i].price)
+//         currentBalance -= items[i].price * items[i].count
+//         console.log(items[i].name, items[i].count)
+//     }
+// }
+
+// calculateAssets(currentBalance)
+
 
 // let items = [
 //     {
@@ -235,23 +257,3 @@ let items = [{ name: 'Big Mac', price: 2 },
 //         price: 2, 
 //     },
 // ]
-
-let currentBalance = balance20apr
-
-console.log("Starting sum: ", startSum, "invest every month: ", periodicSum, "for ", period, " years")
-console.log("if invested for 5% apr: ", balance5apr)
-console.log("if invested for 10% apr: ", balance10apr)
-console.log("if invested for 15% apr: ", balance15apr)
-console.log("if invested for 20% apr: ", balance20apr)
-console.log("=================")
-console.log("current Balance: ", currentBalance)
-
-const calculateAssets = (currentBalance) => {
-    for (let i=0; i<items.length; i++) {
-        items[i].count = Math.floor(currentBalance / items[i].price)
-        currentBalance -= items[i].price * items[i].count
-        console.log(items[i].name, items[i].count)
-    }
-}
-
-calculateAssets(currentBalance)
