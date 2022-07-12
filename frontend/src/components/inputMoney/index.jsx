@@ -1,4 +1,4 @@
-
+import './index.css'
 export const InputMoney = ({ money, setMoney }) => {
 
     const handleChange = event => {
@@ -7,12 +7,14 @@ export const InputMoney = ({ money, setMoney }) => {
     }
 
     return(
-        <div>
+        <div className='input-wrapper'>
             <input
-            type="text"
+            className="input-field"
+            type="input"
             onChange={handleChange}
-            value={money}>
-            </input>
+            value={money}
+            required="yes" 
+            />
         </div>
     )
 }

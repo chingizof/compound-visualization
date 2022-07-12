@@ -14,6 +14,7 @@ export const Container =  () => {
     const [years, setYears] = useState(20)
     const [apy, setApy] = useState(15)
     const [balance, setBalance] = useState(757977)
+    // создать backedBalance который  никогда не будет меняться и нужен для рассчета баланса при изменении input/количество предметов
 
     return (
         <div className='container'>

@@ -1,3 +1,4 @@
+import './index.css'
 export const InputYears = ({ years, setYears }) => {
 
     const handleChange = event => {
@@ -8,10 +9,12 @@ export const InputYears = ({ years, setYears }) => {
     return(
         <div>
             <input
-            type="text"
+            className="input-field"
+            type="input"
             onChange={handleChange}
-            value={years}>
-            </input>
+            value={years}
+            required="yes"
+            />
         </div>
     )
 }
